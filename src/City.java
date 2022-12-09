@@ -3,7 +3,7 @@ class City {
     private String region;
     private String district;
     private int population;
-    private String foundation;
+    private String foundation = "";
 
     City(String name, String region, String district, int population, String foundation) {
         this.name = name;
@@ -18,7 +18,6 @@ class City {
         this.region = region;
         this.district = district;
         this.population = population;
-        this.foundation = "";
     }
 
     public int getPopulation() {
